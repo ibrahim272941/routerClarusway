@@ -1,6 +1,7 @@
 import React from "react";
 import { Nav, Container, Navbar, NavDropdown } from "react-bootstrap";
 import logo from "../img/logo.png";
+import city from "../city/city2.png";
 import { useNavigate } from "react-router-dom";
 const MyNav = () => {
   const navigate = useNavigate();
@@ -16,7 +17,11 @@ const MyNav = () => {
         <Container>
           <Navbar.Brand>
             <Nav.Link eventKey="home">
-              <img src={logo} alt="" />
+              <img
+                style={{ width: "12rem", height: "6rem" }}
+                src={city}
+                alt=""
+              />
             </Nav.Link>
           </Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />

@@ -1,8 +1,9 @@
 import AppRouter from "./AppRouter";
+import "./index.css";
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <AppRouter />
     </div>
   );

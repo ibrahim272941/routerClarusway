@@ -5,7 +5,7 @@ import MyCard from "./MyCard";
 const Courses = ({ data }) => {
   return (
     <div className="text-center mt-4 ">
-      <h1>Courses</h1>
+      <h1>Sehenwürdichkeits</h1>
 
       <Container className="mb-3 d-flex justify-content-center">
         <Row className="text-center">
@@ -13,7 +13,7 @@ const Courses = ({ data }) => {
             return (
               <Col
                 key={i}
-                className="mb-3 d-flex justify-content-center h-100"
+                className="mb-3 d-flex justify-content-center"
                 xs={12}
                 md={6}
                 lg={4}

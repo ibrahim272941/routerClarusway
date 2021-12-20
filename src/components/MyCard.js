@@ -6,12 +6,12 @@ const MyCard = ({ name, text, img, link }) => {
   const navigate = useNavigate();
   return (
     <div>
-      <Card style={{ width: "18rem" }} className="h-100">
+      <Card style={{ width: "18rem" }}>
         <Card.Img variant="top" src={img} />
         <Card.Body>
           <Card.Title>{name}</Card.Title>
           <Card.Text>{text}</Card.Text>
-          <Button onClick={() => navigate(`/${link}`)} variant="danger">
+          <Button onClick={() => navigate(`/${link}`)} variant="danger h-100">
             Details
           </Button>
         </Card.Body>
